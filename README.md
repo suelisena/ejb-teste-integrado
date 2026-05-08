@@ -112,4 +112,22 @@ Respostas:
 
 500 Internal Server Error: "Saldo insuficiente" ou "Benefício não encontrado".
 
+
+# 📸 Demonstração do Sistema
+Abaixo, as capturas de tela demonstram o fluxo completo da aplicação, desde o estado inicial até a validação da integridade dos dados.
+
+1. Interface Principal e Centralizada
+O layout foi desenvolvido com foco em usabilidade, centralizando as informações críticas de saldo e IDs para facilitar a operação do usuário.
+
+![Nome do Print](caminho/para/imagem.png)
+
+2. Validação de Transação
+O sistema fornece feedback imediato ao usuário através de alertas de sucesso, confirmando que a lógica de negócio no backend foi processada.
+
+![Nome do Print](caminho/para/imagem.png)
+
+3. Persistência e Controle de Versão (Locking)
+Nesta captura, nota-se que após a transferência de R$ 50, o campo Versão (Locking) foi incrementado automaticamente (de 4 para 5), comprovando a eficácia do bloqueio otimista contra concorrência.
+
+![Nome do Print](caminho/para/imagem.png)
 Desenvolvido por Sueli — Systems Analyst & Full Stack Developer
