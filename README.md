@@ -85,8 +85,10 @@ Resposta (200 OK):
 JSON
 [
   { "id": 1, "nome": "Auxílio Alimentação", "valor": 500.00, "version": 4 },
+  
   { "id": 2, "nome": "Auxílio Transporte", "valor": 300.00, "version": 4 }
 ]
+
 2. Realizar Transferência
 URL: GET /api/v1/beneficios/transferir
 
