@@ -131,7 +131,7 @@ O sistema fornece feedback imediato ao usuário através de alertas de sucesso, 
 3. Persistência e Controle de Versão (Locking)
 Nesta captura, nota-se que após a transferência de R$ 15, o campo Versão (Locking) foi incrementado automaticamente (de 4 para 5), comprovando a eficácia do bloqueio otimista contra concorrência.
 
-![Listar Valor](screenshot/listar_valor.png)
+![Listar Valor](screenshot/listar_beneficio.png)
 
 
 ![Valor Atualizado](screenshot/valor_atualizado.png)
